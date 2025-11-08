@@ -38,7 +38,7 @@ import java.util.List;
 
 public class Controller {
     private static final int MIN_QUBITS = 1;
-    private static final int MAX_QUBITS = 10;
+    private static final int MAX_QUBITS = 25;
 
     private QuantumCircuit circuit;
     private QuantumState currentState;

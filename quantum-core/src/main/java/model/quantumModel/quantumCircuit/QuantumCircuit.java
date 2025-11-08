@@ -26,7 +26,7 @@ public class QuantumCircuit {
     private List<CircuitLayer> layers;
 
     public QuantumCircuit(int nQubit) {
-        if (nQubit < 1 || nQubit > 10) throw new IllegalArgumentException("Circuit max number of qubits: 8, given: "+nQubit);
+        if (nQubit < 1 || nQubit > 25) throw new IllegalArgumentException("Circuit max number of qubits: 8, given: "+nQubit);
         this.nQubit = nQubit;
         this.layers = new ArrayList<>();
     }
